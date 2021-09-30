@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back6"
+    tools:context="com.example.laksh_pc.voteapp.gov">
+
+    <Button
+        android:id="@+id/finalbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Vote"
+        android:onClick="finalbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/urvote"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/gov2"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_toStartOf="@+id/finalbtn" />
+
+    <RadioGroup
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/radioGroup3"
+        android:layout_marginStart="42dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/finalbtn">
+
+        <RadioButton
+            android:id="@+id/rb9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venkaiah Naidu"
+            android:onClick="select"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <RadioButton
+            android:id="@+id/rb10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView15"
+            android:onClick="select"
+            android:layout_alignStart="@+id/radioGroup3"
+            android:layout_weight="1"
+            android:text="Banwarilal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/gov3"
+        android:layout_alignBottom="@+id/radioGroup3"
+        android:layout_alignStart="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Selected:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/resulttxt"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/resulttxt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/finalbtn"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black" />
+
+</android.widget.RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VoteApp</string>
+    <string name="title_activity_mainlogin">mainlogin</string>
+    <string name="title_activity_navhome">navhome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mainactivity">mainactivity</string>
+</resources>

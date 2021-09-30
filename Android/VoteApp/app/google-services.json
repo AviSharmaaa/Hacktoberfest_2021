@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "248905709598",
+    "firebase_url": "https://envoirmentalstudies.firebaseio.com",
+    "project_id": "envoirmentalstudies",
+    "storage_bucket": "envoirmentalstudies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248905709598:android:f4628da16bddeb024f560f",
+        "android_client_info": {
+          "package_name": "com.gpj.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248905709598-lv7gl1f8b2cfgj5l1216jvnb47amcfbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7ymopZsZL3rz-0eZFouCGHZPafPV3m2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248905709598-lv7gl1f8b2cfgj5l1216jvnb47amcfbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
