@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laksh_pc.voteapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".registration" />
+        <activity android:name=".authenticate" />
+        <activity android:name=".home" />
+        <activity
+            android:name=".navhome"
+            android:label="@string/title_activity_navhome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".list"
+            android:exported="true" />
+        <activity
+            android:name=".pres"
+            android:exported="true" />
+        <activity android:name=".success" />
+        <activity android:name=".profile" />
+        <activity android:name=".question" />
+        <activity android:name=".quesview" />
+        <activity android:name=".gov" />
+        <activity android:name=".votes"></activity>
+    </application>
+
+</manifest>
