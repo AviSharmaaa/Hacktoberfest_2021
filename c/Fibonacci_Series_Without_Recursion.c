@@ -1,6 +1,7 @@
 #include<stdio.h>    
 int main()    
 {    
+ printf("fibinocci series without recursion");
  int a=0,b=1,c,i,number;    
  printf("Enter the number of elements:");    
  scanf("%d",&number);    
