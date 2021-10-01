@@ -1,4 +1,4 @@
-.main-heading{
+    .main-heading{
         font-family: 'Press Start 2P', cursive;
         font-size:48px
     }
@@ -22,7 +22,7 @@
         height: 100px;    
     }
 
-    #submit-btn,#home-back-btn{
+    #submit-btn{
         border-radius: 16px;
         font-size: 18px;
         font-family: 'Orbitron', sans-serif;
@@ -34,6 +34,6 @@
         text-decoration: none;
         border:2px solid white;
     }
-    #submit-btn:focus,  #home-back-btn:focus{
+    #submit-btn:focus{
         box-shadow: inset 4px 8px 4px 1px rgba(255,255,255,0.5);
     }
