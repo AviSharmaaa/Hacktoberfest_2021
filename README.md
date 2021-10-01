@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/rM3QW72/ishangoyal13-Hacktoberfest2021-Hacktoberfest-2021-contribution-repository-github-com.png" width="100%" >
+![Logo](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
 <h1 align="center"> 🎃 HacktoberFest-2021 🎃</h1>
 
 **Official Repository for Hacktoberfest**
