@@ -88,7 +88,7 @@ int main() {
             cout << "\n\tEnter Required Length: ";
             cin >> len;
             if (len < 6 || len > 32) {
-                cout << "\n\t\tERROR!!\n\t(Password should contain at least 6 characters and at max 32 characters) \n\t";
+                cout << "\n\t\tERROR!!\n\t(Password should contain at least 6 characters and at maximum 32 characters) \n\t";
                 system("PAUSE");
                 system("cls");
             }
