@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class insertionSort{
-	static void sort(int arr[])
+	static void sort(int arr[])  // method to sort the array
 	{
 		int n = arr.length;
 		for (int i = 1; i < n; ++i) {
@@ -15,7 +15,7 @@ class insertionSort{
 	}
 
 	
-	static void printArray(int arr[])
+	static void printArray(int arr[]) // method to print the array
 	{
 		int n = arr.length;
 		for (int i = 0; i < n; ++i)
