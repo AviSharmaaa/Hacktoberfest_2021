@@ -9,7 +9,7 @@ pages = pdf.numPages
 print('No. of pages: ' + str(pages))
 start = int(input('Enter Page number to start: '))
 engine = t2s.init()
-engine.setProperty("rate", 160)
+engine.setProperty("rate", 150)
 # voices = engine.getProperty('voices')
 # engine.setProperty('voice', voices[1].id)
 
