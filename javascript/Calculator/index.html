@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title> 
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css"> 
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="heading">
+           Calculator
+        </div>
+        <div class="container">
+            <form>
+                <div id="display-panel">
+                </div>
+                <button type="button" value="Clear"  onclick="clearvalue()">Clear</button>
+            </form>
+            <table>
+                <tr>
+                    <td id="7" onclick="display('7')"> 7 </td>
+                    <td id="8" onclick="display('8')" > 8 </td>
+                    <td id="9" onclick="display('9')"> 9 </td>
+                    <td id="+" onclick="display('+')"> + </td>
+                </tr>
+                <tr>
+                    <td id="4"  onclick="display('4')"> 4 </td>
+                    <td id="5"  onclick="display('5')"> 5 </td>
+                    <td id="6"  onclick="display('6')"> 6 </td>
+                    <td id="-"  onclick="display('-')"> - </td>
+                </tr>
+                <tr>
+                    <td id="1"  onclick="display('1')"> 1</td>
+                    <td id="2"  onclick="display('2')"> 2 </td>
+                    <td id="3"  onclick="display('3')"> 3 </td>
+                    <td id="*"  onclick="display('*')"> * </td>
+                </tr>
+                <tr>
+                    <td id="0"  onclick="display('0')"> 0 </td>
+                    <td id="."  onclick="display('.')"> . </td>
+                    <td id="/"  onclick="display('/')"> / </td>
+                    <td id="="  onclick="calculate()"> = </td>
+                    
+                </tr>
+            </table>
+        </div> 
+    </body>
+</html>
