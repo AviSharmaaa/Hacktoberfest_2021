@@ -72,6 +72,9 @@ int main(){
             instance.end[i] = instance.begin[i+1] - 1;
         }
     }
+    // This line (76) must be altered according to the final starting letter of the dictionary, for instance if your dictionary
+    // does not have the letter 'z' and ends with the letter 'y' the code must look like instance.end[56] = BIGNUMBER;
+    // must be initialized
     instance.end[57] = BIGNUMBER;
     for(int i=0;i<58;i++){
         instance.character = i;
