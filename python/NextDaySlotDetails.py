@@ -1,3 +1,5 @@
+#Author : Adwait Patil
+# Check Vaccine slot details for the next day
 import json
 import requests
 import datetime
