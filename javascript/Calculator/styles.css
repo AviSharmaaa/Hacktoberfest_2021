@@ -1,0 +1,58 @@
+            body{
+                
+                background-image: url('https://i.ibb.co/qFqSW5X/calculator.jpg');
+                font-family: 'Source Sans Pro', sans-serif;
+                
+            }
+            .container{
+                width:320px;
+                height:350px;
+                background-color:lightpink;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-top: 80px;
+                border-radius: 15px;
+                padding: 12px;
+                
+                
+            }
+            table{
+                border: 2px solid red;
+                border-collapse: collapse;
+                color:black;
+                font-size: 30px;
+                
+            }
+            #display-panel{
+                height: 100px;
+                border: 2px solid purple;
+                font-size: 30px;
+                background-color: white;
+            }
+            td{
+                width: 125px;
+                height: 50px;
+                border: 2px solid purple;
+                text-align: center;
+                
+            }
+            input[type="text"] {
+                background: transparent;
+                border: none;
+                font-size: 20px;
+                height: 50px;
+            }
+            #heading{
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                background-color: lightpink;
+                height: 70px;
+                width:150px;
+                padding: 15px;
+                font-size: 30px;
+                text-align: center;
+                border-radius: 45px;
+            }
+            
