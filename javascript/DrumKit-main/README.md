@@ -1,0 +1,1 @@
+##### This is a basic drumkit on  a webpage with kick, snare, hat and toms. I have used Javascript, HTML and CSS to create this webpage. Buttons could be pressed and clicked to hear a particular sound. Also, animations have been added that ould be triggered when the buttons are pressed.
