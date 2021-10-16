@@ -2,7 +2,7 @@
 #include<string.h>
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
     int i,j,c=0;
     char s[100];
