@@ -1,0 +1,72 @@
+#include<stdio.h>
+#define SIZE 5
+
+int queue[SIZE], front = -1, rear = -1;
+
+void enqueue(int item) {
+    if (rear == SIZE - 1) {
+        printf("Can't enqueue as the queue is full\n");
+    }
+    else {
+
+        if (front == -1) {
+            front = 0;
+            rear = 0;
+        }
+        else
+        {
+            rear = rear + 1;
+        }
+       
+        queue[rear] = item; 
+        printf("We have enqueued %d\n", item);
+    }
+}
+void dequeue() {
+    if (front == -1) {
+        printf("Can't dequeue as the queue is empty\n");
+    }
+    else {
+         
+        printf("We have dequeued : %d\n", queue[front]);
+                
+        if (front > rear) {
+            front = -1;
+            rear = -1;
+        }
+        else
+            front = front + 1;
+    }
+}
+void printQueue() {
+    if (rear == -1)
+        printf("\nUnable to display as queue is empty");
+    else {
+        int i;
+        printf("\nThe queue after enqueue & dequeue ops looks like :");
+            for (i = front; i <= rear; i++)
+                printf("%d ", queue[i]);
+    }
+}
+int main()
+{
+    int arr[4];
+    int i;
+    for (i = 0;i < 4;i++)
+    {
+        printf("Enter element %d to enqueue: ", i+1);
+        scanf_s("%d", &arr[i]);
+    }
+
+    enqueue(arr[0]);
+    enqueue(arr[1]);
+    enqueue(arr[2]);
+    enqueue(arr[3]);
+
+    dequeue();
+    dequeue();
+
+    printQueue();
+
+    return 0;
+}
