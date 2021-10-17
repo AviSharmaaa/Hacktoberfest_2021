@@ -1,13 +1,23 @@
-var result=" ";
-function display(num){
-   result=result+num;
-   document.getElementById('display-panel').innerHTML= result;
-}
-function clearvalue(){
-   document.getElementById('display-panel').innerHTML=" ";
-   result=" ";
-}
-function calculate(){
-   Num=window.result;
-   document.getElementById('display-panel').innerHTML=eval(Num); 
+function calcular(tipo, valor) {
+   console.log(tipo, valor)
+
+   if (tipo === 'acao') {
+
+       if (valor === 'c') {
+           //limpar a tela
+           document.getElementById('resultado').value = ''
+       }
+
+       if (valor === '+' || valor === '-' || valor === '*' || valor === '/' || valor === '.') {
+           document.getElementById('resultado').value += valor
+       }
+
+       if (valor === '=') {
+           var valor_campo = eval(document.getElementById('resultado').value)
+           document.getElementById('resultado').value = valor_campo
+       }
+   } else if (tipo === 'valor') {
+       document.getElementById('resultado').value += valor
+   }
+
 }
