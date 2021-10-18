@@ -1,6 +1,11 @@
 // Problem - Given an array Arr[] of N integers.
 //Find the contiguous sub-array(containing at least one number) which has the maximum sum and return its sum.
 
+// I/p: 
+// 4
+// -1 -2 -3 -4
+// O/p: -1
+
 #include <bits/stdc++.h>
 using namespace std;
 
