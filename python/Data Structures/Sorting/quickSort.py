@@ -1,14 +1,11 @@
 # Python program for implementation of Quicksort
 
-'''This function takes last element as pivot, places
-the pivot element at its correct position in sorted
-array, and places all smaller (smaller than pivot)
-to left of pivot and all greater elements to right
+'''This function takes last element as pivot, places the pivot element at its correct position in sorted array, and places all smaller (smaller than pivot) to left of pivot and all greater elements to right
 of pivot '''
 
 def partition(arr, low, high):
-	i = (low-1)		 # index of smaller element
-	pivot = arr[high]	 # pivot
+	i = (low-1) # index of smaller element
+	pivot = arr[high] # pivot
 	for j in range(low, high):
 		# If current element is smaller than or
 		# equal to pivot
@@ -29,11 +26,10 @@ def quickSort(arr, low, high):
 	if len(arr) == 1:
 		return arr
 	if low < high:
-
 		# pi is partitioning index, arr[p] is now
 		# at right place
 		pi = partition(arr, low, high)
-
+		
 		# Separately sort elements before
 		# partition and after partition
 		quickSort(arr, low, pi-1)
