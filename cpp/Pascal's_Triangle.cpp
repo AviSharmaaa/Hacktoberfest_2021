@@ -1,3 +1,6 @@
+//Here I have implemented Pascal's Triangle using C++.
+
+
 #include <bits/stdc++.h>
  
 using namespace std;
@@ -20,7 +23,8 @@ for (int line = 1; line <= n; line++)
 
 int main()
 {
-    int n = 5;
+    int n;
+    cin >> n;
     Pascal(n);
     return 0;
 }
