@@ -13,9 +13,7 @@ Output:
 * * * * * * * * * *
 
 '''
-
-
-#left-arrow pattern
+#left-arrow pattern code
 n=int(input())
 st=2*n
 for i in range(n):
